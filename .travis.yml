@@ -1,0 +1,8 @@
+language: python
+python:
+    - 3.8
+install:
+    - pip install -q poetry
+    - poetry install
+script:
+    - poetry run flake8
