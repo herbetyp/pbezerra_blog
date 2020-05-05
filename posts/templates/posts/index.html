@@ -16,7 +16,7 @@
             {% if post.imagem_post %}
                 <a href="{% url 'post_detalhes' post.id %}">
                     <img class="card-img-top" src="{{ post.imagem_post.url }}" alt="{{ post.titulo_post }}"
-                    style="height: 14rem;">
+                    style="height: 12rem;">
                 </a>
             {% endif %}
             <div class="card-body">
@@ -35,7 +35,7 @@
                         {{ post.categoria_post }}
                     </small>
                 </p>
-                <div class="text-right">
+                <div class="text-left">
                     <a href="{% url 'post_detalhes' post.id %}" class="btn btn-outline-secondary">Ler mais...</a>
                 </div>
             </div>

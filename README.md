@@ -1,5 +1,9 @@
-#  Pbezerra Blog - __Blog Pessoal__
+[![Build Status](https://travis-ci.org/Pbezerra-dev/pbezerra_blog.svg?branch=master)](https://travis-ci.org/Pbezerra-dev/pbezerra_blog)
+[![Updates](https://pyup.io/repos/github/Pbezerra-dev/Mtranscoder/shield.svg)](https://pyup.io/repos/github/Pbezerra-dev/Mtranscoder/)
+[![Python 3](https://pyup.io/repos/github/Pbezerra-dev/Mtranscoder/python-3-shield.svg)](https://pyup.io/repos/github/Pbezerra-dev/Mtranscoder/)
 
+
+#  Pbezerra Blog - __Blog Pessoal__
 
 ## Como contribuir:
 
