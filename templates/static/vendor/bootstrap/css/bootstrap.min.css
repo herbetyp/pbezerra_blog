@@ -1819,7 +1819,7 @@ pre code {
 .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #ad8ab6;
+    border-color: #20c997;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(109, 74, 118, .25)
 }
@@ -2382,20 +2382,20 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #503657;
-    border-color: #49314f
+    background-color: #2b7a74;
+    border-color: #073633
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgba(131, 101, 139, .5)
+    box-shadow: 0 0 0 .2rem rgba(216, 217, 219, .5)
 }
 
 .btn-secondary {
     color: #fff;
     background-color: #3ca9a1;
-    border-color: #3ca9a1
+    border-color: #3ca9a1;
 }
 
 .btn-secondary:hover {
