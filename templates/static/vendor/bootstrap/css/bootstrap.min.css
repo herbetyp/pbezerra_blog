@@ -2368,7 +2368,7 @@ fieldset:disabled a.btn {
 
 .btn-primary.focus,
 .btn-primary:focus {
-    box-shadow: 0 0 0 .2rem rgba(131, 101, 139, .5)
+    box-shadow: 0 0 0 .2rem rgba(216, 217, 219, .5)
 }
 
 .btn-primary.disabled,
