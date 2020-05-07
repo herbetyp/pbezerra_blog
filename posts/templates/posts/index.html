@@ -11,7 +11,7 @@
 <!-- CONTENT -->
 <div class="card-columns mt-5">
     <!-- FOR LOOP -->
-    {% for post in posts %}
+    {% for post in posts|slice:":3" %}
         <div class="card">
             {% if post.imagem_post %}
                 <a href="{% url 'post_detalhes' post.id %}">
@@ -28,10 +28,8 @@
                 <p class="card-text" style="height: 10rem;">{{ post.excerto_post }}</p>
                 <p class="card-text">
                     <small class="text-muted">
-                        {{ post.data_post|naturalday|title }}
-                        | 
-                        {{ post.numero_comentarios|plural_comentarios }}
-                        | 
+                        {{ post.data_post|naturalday|title }}| 
+                        {{ post.numero_comentarios|plural_comentarios }}| 
                         {{ post.categoria_post }}
                     </small>
                 </p>
@@ -41,6 +39,36 @@
             </div>
         </div>
     {% endfor %}
+</div>
+<div class="card-columns mt-5">
+    {% for post in posts|slice:"3:" %}
+    <div class="card">
+        {% if post.imagem_post %}
+            <a href="{% url 'post_detalhes' post.id %}">
+                <img class="card-img-top" src="{{ post.imagem_post.url }}" alt="{{ post.titulo_post }}"
+                style="height: 12rem;">
+            </a>
+        {% endif %}
+        <div class="card-body">
+            <h5 class="card-title">
+                <a href="{% url 'post_detalhes' post.id %}">
+                    {{ post.titulo_post }}
+                </a>
+            </h5>
+            <p class="card-text" style="height: 10rem;">{{ post.excerto_post }}</p>
+            <p class="card-text">
+                <small class="text-muted">
+                    {{ post.data_post|naturalday|title }}| 
+                    {{ post.numero_comentarios|plural_comentarios }}| 
+                    {{ post.categoria_post }}
+                </small>
+            </p>
+            <div class="text-left">
+                <a href="{% url 'post_detalhes' post.id %}" class="btn btn-outline-secondary">Ler mais...</a>
+            </div>
+        </div>
+    </div>
+{% endfor %}
 </div>
 {% include 'parciais/_pagination.html' %}
 

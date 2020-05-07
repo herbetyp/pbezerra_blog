@@ -4793,7 +4793,7 @@ input[type=submit].btn-block {
 .page-link:focus {
     z-index: 2;
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(109, 74, 118, .25)
+    box-shadow: 0 0 0 .2rem rgba(216, 217, 219, .5)
 }
 
 .page-item:first-child .page-link {
