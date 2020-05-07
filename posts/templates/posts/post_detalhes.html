@@ -23,7 +23,8 @@
     <div class="col-xl"></div>
         <div class="col-xl-8">
             {% if post.imagem_post %}
-                <img class="img-fluid pb-5" src="{{ post.imagem_post.url }}" alt="{{ post.titulo_post }}"> 
+                <img class="img-fluid pb-5" src="{{ post.imagem_post.url }}" alt="{{ post.titulo_post }}" 
+                style="width: 100%;"> 
             {% endif %}
                 {{ post.conteudo_post|safe }}
         </div>
