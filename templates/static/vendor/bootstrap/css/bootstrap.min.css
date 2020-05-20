@@ -195,7 +195,11 @@ samp {
 pre {
     margin-top: 0;
     margin-bottom: 1rem;
-    overflow: auto
+    overflow: auto;
+    background-color: ivory;
+    border: 1px groove black;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 figure {
