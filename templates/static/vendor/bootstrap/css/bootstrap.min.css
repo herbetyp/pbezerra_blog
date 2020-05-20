@@ -196,7 +196,7 @@ pre {
     margin-top: 0;
     margin-bottom: 1rem;
     overflow: auto;
-    background-color: ivory;
+    background-color: dimgray;
     border: 1px groove black;
     border-radius: 3px;
     padding: 5px;
@@ -558,7 +558,7 @@ kbd kbd {
 pre {
     display: block;
     font-size: 87.5%;
-    color: #212529
+    color: white
 }
 
 pre code {
