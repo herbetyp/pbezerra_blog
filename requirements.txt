@@ -16,9 +16,9 @@ django-appconf==1.0.4 \
 django-axes==5.3.1 \
     --hash=sha256:23eee8297dfcb5aa780e4925f58d723387afe8ecc8fd6a7e9522d26c95c7b880 \
     --hash=sha256:49fa9736cbbf7d83a61ed57f7b2ebd65f8d3064bb0c45b945bfa7421288031a1
-django-crispy-forms==1.9.0 \
-    --hash=sha256:67e73ac863d3159500029fbbcdcb788f287a3fd357becebc1a0b51f73896dce3 \
-    --hash=sha256:50032184708ce351e3c9f0008ac35d659d9d5973fa2db218066f2e0a76eb41d9
+django-crispy-forms==1.10.0 \
+    --hash=sha256:92ed3fdc52c08d21d60adbb9de24e432c590e66e894f43cee0974fc959209976 \
+    --hash=sha256:d3f808d20cafe20fd38a49a47e72db1fd519fcf31bef4f47f008619336a3ebff
 django-ipware==2.1.0 \
     --hash=sha256:a7c7a8fd019dbdc9c357e6e582f65034e897572fc79a7e467674efa8aef9d00b
 django-summernote==0.8.11.6 \
