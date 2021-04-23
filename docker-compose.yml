@@ -1,0 +1,16 @@
+version: "3.8"
+
+
+services:
+    db:
+      container_name: blog_db
+      image: postgres:12
+      env_file: 
+        - db.env
+      volumes:
+        - db_volume:/var/lib/postgres/data
+      ports:
+        - 5433:5432
+    
+volumes: 
+    db_volume:
