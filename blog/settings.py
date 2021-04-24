@@ -166,4 +166,4 @@ if not DEBUG:
     CSRF_COOKIE_SECURE = True
     CSRF_COOKIE_HTTPONLY = True
 
-DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'

@@ -6,4 +6,4 @@ install:
     - pip install -q poetry
     - poetry install
 script:
-    - poetry run flake8
+    - poetry run flake8 --config=.flake8
