@@ -8,15 +8,15 @@ license = "AGPL-3.0-only"
 [tool.poetry.dependencies]
 python = "^3.7"
 django_summernote = "^0.8.11"
-pillow = "^7.1.2"
 django-crispy-forms = "^1.9.0"
 requests = "^2.23.0"
-django = "2.2.11"
 python-decouple = "^3.3"
 dj-database-url = "^0.5.0"
 django-axes = "^5.3.1"
 psycopg2-binary = "^2.8.6"
 mysqlclient = "^2.0.3"
+Django = "3.2"
+Pillow = "^8.2.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.7.9"
