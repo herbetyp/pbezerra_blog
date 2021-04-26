@@ -4,13 +4,13 @@ version: "3.8"
 services:
     db:
       container_name: blog_db
-      image: postgres:12
+      image: mariadb:10.5.9
       env_file: 
         - db.env
       volumes:
-        - db_volume:/var/lib/postgres/data
+        - db_volume:/var/lib/mysql
       ports:
-        - 5433:5432
+        - 3307:3306
     
 volumes: 
     db_volume:
