@@ -139,6 +139,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "mysqlclient"
+version = "2.0.3"
+description = "Python interface to MySQL"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
 name = "pillow"
 version = "7.1.2"
 description = "Python Imaging Library (Fork)"
@@ -228,7 +236,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "079896298a6d70feb2029e99749e398d40289982b3742bad6a9f883d3fffba20"
+content-hash = "835f2609a1d0da6f6abe0f2330d575ef76c663773cf239a35d5bd679d0976eeb"
 
 [metadata.files]
 autopep8 = [
@@ -283,6 +291,13 @@ idna = [
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
+]
+mysqlclient = [
+    {file = "mysqlclient-2.0.3-cp36-cp36m-win_amd64.whl", hash = "sha256:3381ca1a4f37ff1155fcfde20836b46416d66531add8843f6aa6d968982731c3"},
+    {file = "mysqlclient-2.0.3-cp37-cp37m-win_amd64.whl", hash = "sha256:0ac0dd759c4ca02c35a9fedc24bc982cf75171651e8187c2495ec957a87dfff7"},
+    {file = "mysqlclient-2.0.3-cp38-cp38-win_amd64.whl", hash = "sha256:71c4b330cf2313bbda0307fc858cc9055e64493ba9bf28454d25cf8b3ee8d7f5"},
+    {file = "mysqlclient-2.0.3-cp39-cp39-win_amd64.whl", hash = "sha256:fc575093cf81b6605bed84653e48b277318b880dc9becf42dd47fa11ffd3e2b6"},
+    {file = "mysqlclient-2.0.3.tar.gz", hash = "sha256:f6ebea7c008f155baeefe16c56cd3ee6239f7a5a9ae42396c2f1860f08a7c432"},
 ]
 pillow = [
     {file = "Pillow-7.1.2-cp35-cp35m-macosx_10_10_intel.whl", hash = "sha256:ae2b270f9a0b8822b98655cb3a59cdb1bd54a34807c6c56b76dd2e786c3b7db3"},
