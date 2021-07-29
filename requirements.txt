@@ -16,8 +16,9 @@ django-axes==5.14.0; python_version >= "3.6" and python_version < "4.0" \
 django-crispy-forms==1.11.2; python_version >= "3.5" \
     --hash=sha256:88efa857ce6111bd696cc4f74057539a3456102fe9c3a3ece8868e1e4579e70a \
     --hash=sha256:3db71ab06d17ec9d0195c086d3ad454da300ac268752ac3a4f63d72f7a490254
-django-ipware==3.0.2; python_version >= "3.6" and python_version < "4.0" \
-    --hash=sha256:c7df8e1410a8e5d6b1fbae58728402ea59950f043c3582e033e866f0f0cf5e94
+django-ipware==3.0.7; python_version >= "3.6" and python_version < "4.0" \
+    --hash=sha256:753f8214a16ccaac54ea977349a96e37b582a28a54065e00c1c46d530862c85e \
+    --hash=sha256:a18820ea2b98ff3f87b7530eb6346f5feb65d18e89397606aacc098fa7b93db2
 django-summernote==0.8.11.6 \
     --hash=sha256:c23dae35c287f0d3d1ff801654ace77c3c6836453162e87c7330710d74d2eb88
 django==3.2; python_version >= "3.6" \
