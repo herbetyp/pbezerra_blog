@@ -10,9 +10,9 @@ chardet==4.0.0; python_version >= "2.7" and python_full_version < "3.0.0" or pyt
 dj-database-url==0.5.0 \
     --hash=sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163 \
     --hash=sha256:851785365761ebe4994a921b433062309eb882fedd318e1b0fcecc607ed02da9
-django-axes==5.14.0; python_version >= "3.6" and python_version < "4.0" \
-    --hash=sha256:30e60f980c9168eff3e4ae4b33d2a05d7f36868aa0a82a3d5ac74577be57fa56 \
-    --hash=sha256:70711f31e1d9eb319950063b25f80417f9d7ce1bd6e25438da885c5b1a48a365
+django-axes==5.35.0; python_version >= "3.6" and python_version < "4.0" \
+    --hash=sha256:bbe08d72defe8cadab4af12c6dc72c3b40e0e0a771fdeb37c20a3e20a5fc2aec \
+    --hash=sha256:f74c096ffff3133a49247bab9299f5280647b70bb27784475d49cbf19672458e
 django-crispy-forms==1.11.2; python_version >= "3.5" \
     --hash=sha256:88efa857ce6111bd696cc4f74057539a3456102fe9c3a3ece8868e1e4579e70a \
     --hash=sha256:3db71ab06d17ec9d0195c086d3ad454da300ac268752ac3a4f63d72f7a490254
